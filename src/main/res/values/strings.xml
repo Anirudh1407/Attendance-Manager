@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="title_attendance_calculator">Attendance</string>
+    <string name="title_hypo_calculator">Calculator</string>
+    <string name="add_sub_button">Add a subject</string>
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+    <string name="Classes_Attended">Classes Attended</string>
+    <string name="Classes_Done">Classes Done</string>
+    <string name="Check">Check</string>
+    <string name="Out_Of">Out Of</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="revisit_tutorial">Revisit tutorial</string>
+    <string name="set_minimum_percentage">Set Minimum percentage</string>
+    <string name="textview">TextView</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

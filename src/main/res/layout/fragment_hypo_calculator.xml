@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/caEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="38dp"
+                android:ems="10"
+                android:hint="@string/Classes_Attended"
+                android:inputType="number"
+                android:autofillHints="no" />
+
+            <EditText
+                android:id="@+id/cdEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/caEditText"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="196dp"
+                android:ems="10"
+                android:hint="@string/Classes_Done"
+                android:inputType="number"
+                android:singleLine="true"
+                android:layout_alignLeft="@+id/caEditText"
+                android:layout_marginLeft="0dp"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/caEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="53dp"
+                android:text="@string/Out_Of"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/checkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cdEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="78dp"
+                android:background="@drawable/inner_button"
+                android:text="@string/Check" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

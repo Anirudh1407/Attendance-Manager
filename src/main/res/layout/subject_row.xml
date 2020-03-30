@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/subName"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="162dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/textview"
+        android:textSize="45sp"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="162dp" />
+
+    <TextView
+        android:id="@+id/curPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/subName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="152dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/textview"
+        android:textSize="45sp"
+        android:layout_alignLeft="@+id/subName"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="152dp" />
+
+    <TextView
+        android:id="@+id/cacdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/subName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/textview"
+        android:textSize="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/attendTextView"
+        android:layout_width="367dp"
+        android:layout_height="61dp"
+        android:layout_alignStart="@+id/curPercent"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="133dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="@string/textview"
+        android:textSize="40sp"
+        android:layout_marginLeft="-1dp"
+        android:layout_alignLeft="@+id/curPercent" />
+
+</RelativeLayout>
